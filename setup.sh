@@ -47,14 +47,14 @@ fi
 
 unzip -d $INSTALLATION_DIRECTORY WinBox_Linux.zip
 
-touch ~/.local/share/applications/winbox.desktop
-cat << EOF >> ~/.local/share/applications/winbox.desktop
+touch $HOME/.local/share/applications/winbox.desktop
+cat << EOF >> $HOME/.local/share/applications/winbox.desktop
 [Desktop Entry]
 Name=Winbox
 GenericName=Configuration tool for RouterOS
 Comment=Configuration tool for RouterOS
-Exec=/opt/winbox/WinBox
-Icon=/opt/winbox/assets/img/winbox.png
+Exec=$HOME/.winbox/WinBox
+Icon=$HOME/.winbox/assets/img/winbox.png
 Terminal=false
 Type=Application
 StartupNotify=true
