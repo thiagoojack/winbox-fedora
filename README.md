@@ -9,7 +9,7 @@ If you need a help with the installer, use `bash setup.sh --help` to see informa
 - Clone this repo:
 
 ```bash
-git clone https://github.com/thiagojolv/winbox-fedora.git
+git clone https://github.com/thiagoojack/winbox-fedora.git
 ```
 - Run setup.sh with bash:
 ```bash
